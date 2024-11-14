@@ -1,7 +1,7 @@
 # Home-sales
 home-sales
-### The home-sales project makes use of SparkSQL in order to determine key metrics in the csv_file that was downloaded with the "spark.sparkContext.addFile(url)" function to have all the content avalaible to all nodes in the Spark cluster
-### Specifically pyspark was used in order to work with the large data set and perform the data anlysis.
+## The home-sales project makes use of SparkSQL in order to determine key metrics in the csv_file that was downloaded with the "spark.sparkContext.addFile(url)" function to have all the content avalaible to all nodes in the Spark cluster
+## Specifically pyspark was used in order to work with the large data set and perform the data anlysis.
 
 ### Pyspark:
 #### Temporary views "createOrReplaceTempView("")" was implemented in order to facilitate the following queries in the data analysis and allowing SQL-like syntax.
