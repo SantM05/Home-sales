@@ -6,7 +6,7 @@ home-sales
 #### Pyspark:
 ##### Temporary views "createOrReplaceTempView("")" was implemented in order to facilitate the following queries in the data analysis and allowing SQL-like syntax.
 ##### On "avg_by_view_rating_parquet_price" the data was previously partitioned by the "date_built" column so as to create a separate dictionary for each unique date_built value and facilitate the query. 
-##### When perfoming the final query multiple times the data was cached and verified to be cached in order to store the temperary view for faster access and improve the multiple operations done later on
+##### When perfoming the final query multiple times the data was cached and verified to be cached in order to store the temporary view for faster access and improve the multiple operations done later on
 
 #### Google Colab:
 ##### The enviorment used for the programming and running of the python home_sales code was google colab.
